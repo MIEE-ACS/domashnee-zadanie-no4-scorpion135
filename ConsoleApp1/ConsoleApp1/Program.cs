@@ -34,6 +34,7 @@ namespace ConsoleApp1
             Random rand = new Random();
 
 
+
             for (int i = 0; i < N; i++)
             {
                 mas[i] = Math.Round((rand.NextDouble() * 10 - 5), 2);
